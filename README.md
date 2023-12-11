@@ -1,3 +1,5 @@
+![coverart](https://github.com/AI-Maker-Space/AIM-Build-Christos-Creates/blob/main/Christos%20Creates%20AI%20Makerspace%20Cover%20Art.png)
+
 # 🚀 Christos Creates
 
 Welcome to **Christos Creates**, a unique series brought to you by the AI Makerspace Community. Our mission is to educate and engage AI Engineers by diving into hands-on projects that utilize popular Large Language Models (LLMs) and frameworks.
