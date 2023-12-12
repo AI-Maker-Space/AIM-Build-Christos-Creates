@@ -33,5 +33,10 @@ To ensure you have all the tools and information you need, here are some essenti
 Remember, the AI journey is about continuous learning and experimentation. Keep exploring, and see you next week in **Christos Creates**!
 
 ---
+## Recording
+
+  - [Session Recording (poor quality)](https://www.loom.com/share/636dc2fa1f8645479073f620e74ded0c?sid=dcd20c69-cf19-45bf-ba24-f2f04ccb6e28)
+
+---
 
 [Back to Main](https://github.com/AI-Maker-Space/AIM-Build-Christos-Creates/) | [Week 1](https://github.com/AI-Maker-Space/AIM-Build-Christos-Creates/blob/main/week1/)
