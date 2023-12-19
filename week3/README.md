@@ -1,4 +1,8 @@
-![coverart](https://github.com/AI-Maker-Space/AIM-Build-Christos-Creates/blob/main/week3/chainllamalit.png) 
+<p align="center">
+  <img src="https://github.com/AI-Maker-Space/AIM-Build-Christos-Creates/blob/main/week3/chainllamalit.png" width="512" height="512" class="center">
+</p>
+
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://cmagganas-extractapp.hf.space)
 
 # 🚀 Week 3: Chainlit w/ Langchain for Data Extraction
 
