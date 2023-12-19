@@ -22,6 +22,18 @@ In this project, we focus on:
 
 - **Learn how to integrate Chainlit for Data Extraction:** A detailed guide to implementing data extraction features using Chainlit in your applications.
 
+## 🔗 Resources and Links
+
+To enhance your learning experience and provide additional support, here are some valuable resources:
+
+- **Week 2 Notebook**: We based our deployment on last week's [data extraction notebook](https://colab.research.google.com/drive/1YiHeRkKxpyMsmXBe_clVr1RI4I1ZfPCb?usp=sharing).
+- **Slides for Week 3**: Enhance your understanding with our [presentation slides](https://www.canva.com/design/DAF3YJOFgfA/A5oJK3-UiDKTEngfeZ5cxg/edit).
+- **HF Space for Week 3**: Explore the practical implementation at our [Hugging Face space](https://huggingface.co/spaces/cmagganas/ExtractApp).
+- **Recording of the Session**: Watch the recorded session (TBD) for a deeper insight into the project.
+- **Additional Reading and Tools**:
+  - Discover more about [Chainlit](https://docs.chainlit.io/) + [LangChain](https://python.langchain.com/docs/) = [Chainlit and LangChain](https://docs.chainlit.io/integrations/langchain).
+
+
 ## 🗓 Schedule
 
 Don't miss out on our interactive session on **Monday at 5:00 PM Pacific Time**. Join us to learn, discuss, and implement this project!
@@ -39,7 +51,7 @@ Explore our series for more exciting AI projects. Each project offers a unique l
 
 [Beyond-ChatGPT](https://github.com/AI-Maker-Space/Beyond-ChatGPT) | [Interactive-Dev-Environment-for-LLM-Development](https://github.com/AI-Maker-Space/Interactive-Dev-Environment-for-LLM-Development) | [AI Makerspace](https://github.com/AI-Maker-Space)
 
-## 🔗 Connect with Us
+## 🫂 Connect with Us
 
 Your ideas are valuable to us! Reach out for suggestions, project ideas, or improvements.
 
