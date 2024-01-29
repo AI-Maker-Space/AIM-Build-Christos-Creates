@@ -1,0 +1,17 @@
+{
+    "action_state": true,
+    "messages": [
+        {
+            "message": "blah blah blah",
+            "processed": ""
+        },
+        {
+            "message": "order 1234",
+            "processed": "{\"order_id\": \"1234\"}"
+        },
+        {
+            "message": "start a process",
+            "processed": "ACTION"
+        }
+    ]
+}

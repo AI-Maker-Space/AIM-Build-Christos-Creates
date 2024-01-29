@@ -1,0 +1,252 @@
+:root {
+    --main-bg-color: #292626;
+    --main-text-color: #333;
+    --container-bg-color: #fff;
+    --container-box-shadow: rgba(0, 0, 0, 0.1);
+    --button-bg-color: #1d2124;
+    --button-hover-bg-color: #4f5355;
+    --button-text-color: #fff;
+    --select-border-color: #4a5055;
+    --select-hover-border-color: #1d272e;
+    --select-text-color: #202b33;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    max-height: 10dvh;
+
+}
+
+.message-box {
+    margin : 20px;
+    padding:40px;
+    border-radius: 50px;
+    background-color: white;
+    color:black
+}
+
+#text-container{
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-container {
+    min-width: 400px;
+    min-height: 200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: var(--container-bg-color);
+    box-shadow: 0 0 10px var(--container-box-shadow);
+    border-radius: 8px;
+    background-color: #1d2124;
+    margin-top: 80dvh;
+    animation: grow_hover_stable 1s ease-in-out;
+}
+
+.grid {
+    display: grid;    
+    grid-template-rows: 6fr 1fr ;
+    grid-template-columns: 5fr 1fr;
+}
+
+/* Modern Button Styles */
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+    height: 15dvh;
+    border-radius: 50px;
+    width: 60%;
+    text-align: center;
+    text-wrap: balance;
+}
+
+button:hover {
+    border-radius: 20px;
+    background-color: var(--button-hover-bg-color);
+}
+
+.clean-button:hover {
+    background-color: var(--button-hover-bg-color);
+}
+
+#options-row {
+    display: flex;
+    flex-direction: row;
+    background-color: #1d2124;
+    justify-content: center;
+}
+
+#voiceSelection {
+    border-radius: 20px;
+    background-color: var(--button-bg-color);
+    color: white;
+}
+
+#startButton {
+    height: 15dvh;
+    border-radius: 50px;
+    width: 60%;
+    text-align: center;
+    text-wrap: balance;
+}
+
+#settings {
+    height: 10dvh;
+    border-radius: 50px;
+    width: 100%;
+    text-align: center;
+    text-wrap: balance;
+    font-size: 100%;
+}
+
+#settings_pannel {
+    display: none;
+    background-color: var(--container-bg-color);
+    box-shadow: 0 0 10px var(--container-box-shadow);
+    background-color: #1d2124;
+    /*should be a panel to the left */
+    animation: popout 0.5s ease-in-out;
+    padding: 10px;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    /* Adjust font size for smaller screens */
+    button {
+        font-size: 14px;
+    }
+    
+    label {
+        font-size: 14px;
+    }
+}
+
+@keyframes grow_hover_stable {
+    0% {
+        transform: scale(1);
+        top: 0;
+    }
+    50% {
+        transform: scale(1.1);
+        top: 1px;
+    }
+    100% {
+        transform: scale(1);
+        top: 0;
+    }
+}
+
+@keyframes popout {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+#voiceSelection {
+    border-radius: 20px;
+    background-color: var(--button-bg-color);
+    color: white;
+    width: 100%;
+    box-shadow: 1px 1px 1px 1px #888888;
+}
+
+label {
+    display: block;
+    color: white;
+}
+
+/*animation class for the audio button red and ossolating size*/
+.pulsing {
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+/* action Button Style */
+#actionButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    height: 15dvh;
+    width: 60%;
+    text-align: center;
+    text-wrap: balance;
+    background-color: green;
+    display: inline-block;
+}
+
+@keyframes pulse-action {
+    0%, 100% {
+        background-color: #3CB371; /* Lighter green */
+    }
+    50% {
+        background-color: #90EE90; /* Light green */
+    }
+}
+
+
+/* Terminate Button Style */
+#terminateButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    height: 15dvh;
+    width: 60%;
+    text-align: center;
+    text-wrap: balance;
+    background-color: red;
+    display: inline-block;
+}
+
+@keyframes pulse-terminate {
+    0%, 100% {
+        background-color: #FF6347; /* Tomato */
+    }
+    50% {
+        background-color: #FF7F7F; /* Light Coral */
+    }
+}
+
+/* Applying specific animations to buttons */
+#actionButton.pulsing {
+    animation-name: pulse-action;
+}
+
+#terminateButton.pulsing {
+    animation-name: pulse-terminate;
+}

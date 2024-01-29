@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech API Example</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/7dc3015a44.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="grid">
+        <div id="text-container">
+            <div id="output" class="message-box"> </div>
+            <div id="response" class="message-box"></div>
+        </div>
+        <div id="json-container">
+            <textarea id="jsonOutput" rows="10" cols="50">
+            {
+                "action_state": false,
+                "messages": []
+            }
+            </textarea>
+        </div>
+                <div> 
+            <button id="settings" ><i class="fa fa-sliders  fa-2x"></i> Settings  </button>
+            <div id="settings_pannel">
+                <label for="voiceSelection"> Voice </label>
+                <select id="voiceSelection" > <option value=""> Test item 1 </option></select>
+            </div>
+        </div>
+
+            <div id="options-row">
+                <div id="voiceList"></div>
+                
+                <button id="actionButton">Action</button>
+                <button id="terminateButton">Terminate</button>
+                
+                <button id="startButton" ><i class="fas  fa-microphone fa-3x"></i> PLAY</button>
+                <button id="shhButton" ><i class='fas fa-volume-up'></i> SHH</button>
+            </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
