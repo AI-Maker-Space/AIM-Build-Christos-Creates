@@ -107,4 +107,5 @@ Share about your experience in a LinkedIn post and/or in the Discord!
 * [AIM Discord: #build-ship-share](https://discord.com/channels/1135695983720792216/1135700320517890131)
 * [LinkedIn](https://www.linkedin.com/company/ai-maker-space/) (tag @AI Makerspace)
 
-- written by [The Wiz 🧙🏻‍♂️](https://www.linkedin.com/in/csalexiuk/)
+## Author ✍🏻
+written by [The Wiz 🧙🏻‍♂️](https://www.linkedin.com/in/csalexiuk/)
